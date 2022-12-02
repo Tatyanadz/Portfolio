@@ -57,7 +57,8 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+  background: #3a3232;
+  border-color: transparent !important;
 }
 
 /* Handle */
@@ -298,6 +299,16 @@ button:focus {
   color: #861111 !important;
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .img-fluid {
+    padding-top: 80px;
+  }
+
+  /* .logo {
+     margin-left: 20px;
+  } */
+}
+
 @media (max-width: 767px) {
   .Typewriter__wrapper {
     font-size: 1.4em !important;
@@ -344,7 +355,7 @@ button:focus {
 
 .home-about-social {
   text-align: center !important;
-  padding-top: 25px;
+  padding-top: 65px;
   color: white !important;
 }
 

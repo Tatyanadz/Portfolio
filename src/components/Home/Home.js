@@ -30,12 +30,12 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 10 }}>
+            <Col md={5} style={{ paddingBottom: 10, paddingLeft: 50 }}>
               <img
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                style={{ maxHeight: "550px" }}
               />
             </Col>
           </Row>
