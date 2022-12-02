@@ -76,7 +76,8 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #1b1a2ea9 !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
@@ -144,7 +145,7 @@ button:focus {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #181a27 !important;
+    background-color: dark transparent !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -157,12 +158,11 @@ button:focus {
 .logo {
   height: 2.4em !important;
   width: 2.5em !important;
-  /* margin-left: 30px; */
   position: relative;
 }
 
 .navbar-nav .nav-link {
-  color: black !important;
+  color: rgb(0, 0, 0) !important;
   padding-right: 1rem !important;
   padding-left: 3rem !important;
 
@@ -170,7 +170,7 @@ button:focus {
 
 .nav-link {
   padding: 0.8rem 1rem !important;
-  position:relative
+  position: relative;
 }
 
 @media (max-width: 767px) {
@@ -270,7 +270,7 @@ button:focus {
 
 .home-content {
   padding: 9rem 0 2rem !important;
-  color: rgb(128, 120, 120);
+  color: rgb(0, 0, 0);
   text-align: left;
 }
 
@@ -322,12 +322,14 @@ button:focus {
 }
 
 .home-about-section {
+  background-color: black;
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
 }
 
 .home-about-description {
+  background-color: rgb(0, 0, 0);
   color: white !important;
   padding-top: 100px !important;
   padding-bottom: 20px !important;
@@ -477,49 +479,6 @@ button:focus {
   box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
 }
 
-/* .blog-card {
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
-  padding-left: 25px !important;
-  padding-right: 25px !important;
-  height: auto !important;
-}
-
-.blog-card-view {
-  background-color: transparent !important;
-  box-shadow: 0 3px 3px 2px rgba(145, 77, 161, 0.459) !important;
-  color: white !important;
-  transition: all 0.5s ease 0s !important;
-  height: 100% !important;
-}
-
-.blog-link {
-  color: white !important;
-  text-decoration: none !important;
-}
-
-.blog-link:hover {
-  cursor: pointer !important;
-}
-
-.blog-card-view:hover {
-  transform: scale(1.02) !important;
-  overflow: hidden !important;
-  box-shadow: 0 3px 3px 5px rgba(155, 88, 173, 0.65) !important;
-}
-
-.card-img-top {
-  padding: 20px !important;
-  opacity: 0.8 !important;
-  border-radius: 10px !important;
-}
-
-.blog-img {
-  padding: 0px !important;
-  opacity: 0.8 !important;
-  border-radius: 0px !important;
-} */
-
 .btn-primary {
   color: #fff !important;
   background-color: #861111 !important;
@@ -550,7 +509,7 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  /* background-image: var(--section-background-color) !important; */
   color: white !important;
 }
 
@@ -578,7 +537,7 @@ button:focus {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  border: 2.2px solid #861111 !important;
 }
 .tech-icon-images {
   padding: 20px !important;
@@ -696,8 +655,8 @@ button:focus {
 }
 
 .like-btn {
-  background-color: #934cce5e !important;
-  border-color: #934cce5e !important;
+  background-color: #861111!important;
+  border-color: #861111 !important;
   padding: 0.25rem 0.98rem !important;
   border-radius: 5px !important;
   line-height: 1.4 !important;
@@ -706,8 +665,8 @@ button:focus {
 
 .like-btn:hover {
   transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
+  background-color: #861111 !important;
+  border-color: #861111!important;
 }
 
 .animate-like {
@@ -731,7 +690,7 @@ button:focus {
 
 .fork-btn-inner {
   line-height: 1.4em !important;
-  background-color: #934cce5e !important;
+  background-color: #861111 !important;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
@@ -739,8 +698,8 @@ button:focus {
 
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
+  background-color: #861111!important;
+  border-color: #861111 !important;
 }
 .fork-btn-inner::after {
   display: none !important;
